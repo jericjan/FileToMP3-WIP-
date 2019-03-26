@@ -21,7 +21,7 @@ oneLabel.grid(row=0, column=0, sticky=W)
 OneBox = Entry(win, width=50)
 OneBox.grid(row=1, column=0, sticky=W)
 
-twoLabel = Label(win, text="What's your new file name? (with extension name)")
+twoLabel = Label(win, text="What's your new file name? (with .mp3)")
 twoLabel.grid(row=2, column=0, sticky=W)
 TwoBox = Entry(win, width=50)
 TwoBox.grid(row=3, column=0, sticky=W)
