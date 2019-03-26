@@ -16,6 +16,7 @@ def copy():
 def closeapp():
     sys.exit()
 
+subprocess.call('color 0a', shell=True)
 titleLabel = Label(win, text="PUT ME IN THE SAME FOLDER AS YOUR FILES!")
 titleLabel.grid(row=0, column=0, sticky=W)
 oneLabel = Label(win, text="What's your file name? (with extension name)")
