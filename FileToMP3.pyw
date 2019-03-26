@@ -12,6 +12,7 @@ def copy():
     oldname = OneBox.get()
     newname = TwoBox.get()
     subprocess.call(["ffmpeg", "-i", oldname, "-b:a", "320k", newname])
+    print("DONE, BOIIIIII!!!")
 
 def closeapp():
     sys.exit()
